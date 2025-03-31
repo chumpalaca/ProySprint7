@@ -26,3 +26,13 @@ if scatter_button: #si se hace clic en el botón para el gráfico de dispersión
     
     # Mostrar el gráfico Plotly interactivo
     st.plotly_chart(fig_scatter, use_container_width=True)
+
+    #opción, cambiar botones por casillas de verificación
+    import streamlit as st
+
+# crear una casilla de verificación
+#build_histogram = st.checkbox('Construir un histograma')
+
+#if build_histogram: # si la casilla de verificación está seleccionada
+    #st.write('Construir un histograma para la columna odómetro')
+    #...
